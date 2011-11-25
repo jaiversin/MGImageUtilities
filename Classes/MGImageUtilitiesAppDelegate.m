@@ -32,14 +32,6 @@
 }
 
 
-- (void)dealloc
-{
-    [window release];
-	
-    [super dealloc];
-}
-
-
 - (IBAction)methodChanged:(id)sender
 {
 	[self updateResult];
